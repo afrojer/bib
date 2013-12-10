@@ -1,4 +1,4 @@
-bib
+Bibliographic References
 ===
 
-Bibliographic references used at Columbia University
+BibTeX database used at Colubia University

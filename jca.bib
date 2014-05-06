@@ -1,3 +1,14 @@
+@inproceedings{asplos2014:cider,
+ author = {Andrus, Jeremy and Van't Hof, Alexander and AlDuaij, Naser and Dall, Christoffer and Viennot, Nicolas and Nieh, Jason},
+ title = {{Cider: Native Execution of iOS Apps on Android}},
+ booktitle = {Proceedings of the 19th International Conference on Architectural Support for Programming Languages and Operating Systems},
+ series = {ASPLOS '14},
+ year = {2014},
+  month = mar,
+ pages = {367--382},
+ numpages = {16},
+}
+
 @article{tos06unionfs,
   author = {Wright, Charles P. and Dave, Jay and Gupta, Puja and Krishnan, Harikesavan and Quigley, David P. and Zadok, Erez and Zubair, Mohammad Nayyer},
   title = {{Versatility and Unix Semantics in Namespace Unification}},
@@ -213,11 +224,12 @@
 }
 % pages = {45--56}
 
-@inproceedings{KvmArm2,
+@inproceedings{asplos2014:kvmarm,
  author = {Christoffer Dall and Jason Nieh},
  title = {{KVM/ARM: The Design and Implementation of the Linux ARM Hypervisor}},
  booktitle = {Proceedings of the 19th International Conference on Architectural Support for Programming Languages and Operating Systems},
  address = {Salt Lake City, UT},
+ series = {ASPLOS '14},
  month = mar,
  year = {2014},
 }
@@ -403,6 +415,60 @@
   month = feb,
   year = {2011},
   note = {\url{http://msdn.microsoft.com/en-us/library/ff476147(v=VS.85).aspx}}
+}
+
+@misc{EGL:ext:khrimage,
+  author = {{Jeff Juliano and Gary King and Jon Leech and Jonathan Grant and Barthold Lichtenbelt and Aaftab Munshi and Acorn Pooley and Chris Wynn}},
+  title = {{EGL_KHR_image_base}},
+  year = {2013},
+  month = jun,
+  howpublished = {\url{https://www.khronos.org/registry/egl/extensions/KHR/EGL_KHR_image_base.txt}},
+  note = {Accessed: 12/04/2013},
+}
+
+@misc{GLES:ext:applerowbytes,
+  author = {{John Rosasco and Andrew Barnes}},
+  title = {{GL_APPLE_row_bytes}},
+  year = {2006},
+  month = oct,
+  howpublished = {\url{http://www.opengl.org/registry/specs/APPLE/row_bytes.txt}},
+  note = {Accessed: 04/24/2014},
+}
+
+@misc{GLES:ext:applefence,
+  author = {{Geoff Stahl}},
+  title = {{GL_APPLE_fence}},
+  year = {2002},
+  month = aug,
+  howpublished = {\url{https://www.opengl.org/registry/specs/APPLE/fence.txt}},
+  note = {Accessed: 04/24/2014},
+}
+
+@misc{GLES:ext:nvfence,
+  author = {{John Spitzer and Mark Kilgard and Acorn Pooley}},
+  title = {{GL_NV_fence}},
+  year = {2008},
+  month = dec,
+  howpublished = {\url{https://www.khronos.org/registry/gles/extensions/NV/fence.txt}},
+  note = {Accessed: 04/24/2014},
+}
+
+@misc{Apple:Doc:GLESFBO,
+  author = {{Apple, Inc.}},
+  title = {{OpenGL ES Programming Guide for iOS: Drawing to Other Rendering Destinations}},
+  year = {2014},
+  month = mar,
+  howpublished = {\url{https://developer.apple.com/library/ios/documentation/3ddrawing/conceptual/opengles_programmingguide/WorkingwithEAGLContexts/WorkingwithEAGLContexts.html}},
+  note = {Accessed: 04/24/2014},
+}
+
+@misc{IDAPro,
+  author = {{Hex-Rays SA}},
+  title = {{IDA: About}},
+  year = {2014},
+  month = jan,
+  howpublished = {\url{https://www.hex-rays.com/products/ida/}},
+  note = {Accessed: 04/24/2014},
 }
 
 @misc{WakelockAlternative,
@@ -1113,6 +1179,19 @@
   month = oct,
 }
 
+@inproceedings{webapps:jsmeter,
+  author = {Ratanaworabhan, Paruj and Livshits, Benjamin and Zorn, Benjamin G.},
+  title = {JSMeter: Comparing the Behavior of JavaScript Benchmarks with Real Web Applications},
+  booktitle = {Proceedings of the 2010 USENIX Conference on Web Application Development},
+  series = {WebApps'10},
+  year = {2010},
+  numpages = {12},
+  url = {http://dl.acm.org/citation.cfm?id=1863166.1863169},
+  acmid = {1863169},
+  publisher = {USENIX Association},
+  address = {Berkeley, CA, USA},
+}
+
 @misc{passmark:android,
   author = {{PassMark Software, Inc.}},
   title = {{PassMark PerformanceTest -- Android Apps on Google Play}},
@@ -1138,6 +1217,14 @@
   year = {2013},
   month = dec,
   note = {Accessed: 1/8/2014},
+}
+
+@misc{sunspider,
+  author = {{Apple, Inc.}},
+  title = {{SunSpider 1.0.2 JavaScript Benchmark}},
+  howpublished = {\url{https://www.webkit.org/perf/sunspider/sunspider.html}},
+  year = {2013},
+  note = {Accessed: 03/29/2013},
 }
 
 @misc{OracleContainers,
@@ -1235,6 +1322,174 @@
   month = apr,
   note = {\url{http://developer.nvidia.com/tegra/devkit-ventana}},
 }
+
+@misc{droid:graphics,
+  author = {{The Android OpenSource Project}},
+  title = {{Graphics | Android Developers}},
+  howpublished = {\url{https://source.android.com/devices/graphics.html}},
+  year = {2013},
+  note = {Accessed: 04/23/2014},
+}
+
+@misc{droid:dashboard,
+  author = {{The Android OpenSource Project}},
+  title = {{Dashboards | Android Developers}},
+  howpublished = {\url{http://developer.android.com/about/dashboards/index.html}},
+  year = {2014},
+  month = apr,
+  note = {Accessed: 04/27/2014},
+}
+
+@misc{webkit,
+  author = {{Apple, Inc.}},
+  title = {{The WebKit Open Source Project}},
+  howpublished = {\url{http://www.webkit.org/}},
+  year = {2014},
+  month = apr,
+  note = {Accessed: 04/30/2014},
+}
+
+@misc{GLX,
+  author = {{X.Org Foundation}},
+  title = {{GLX}},
+  howpublished = {\url{http://dri.freedesktop.org/wiki/GLX/}},
+  year = {2013},
+  month = apr,
+  note = {Accessed: 05/01/2014},
+}
+
+@misc{webkit:jsbug,
+  author = {Gyuyoung Kim},
+  title = {Bug 52140 - [EFL] Enable JIT for Webkit EFL},
+  year = {2011},
+  month = jan,
+  howpublished = {\url{https://bugs.webkit.org/show_bug.cgi?id=52140}},
+  note = {Accessed 05/01/2014},
+}
+
+@misc{ohloh:webkit,
+  author = {{Black Duck Software, Inc.}},
+  title = {{WebKit Open Source Project on Ohloh}},
+  howpublished = {\url{http://www.ohloh.net/p/WebKit}},
+  year = {2014},
+  month = apr,
+  note = {Accessed: 04/30/2014},
+}
+
+@misc{apple:ios6:syscalls,
+  author = {{Apple Kernel Engineer}},
+  title = {Personal communication},
+  year = {2014},
+  month = mar,
+}
+
+@misc{acid3test,
+  author = {{Web Standards Project}},
+  title = {{The Acid3 Test}},
+  howpublished = {\url{http://www.acidtests.org/}},
+  year = {2008},
+  month = mar,
+  note = {Accessed: 05/01/2014},
+}
+
+@misc{alexa:top20,
+  author = {{Alexa Internet, Inc.}},
+  title = {{Alexa - Top Sites in United States}},
+  howpublished = {\url{http://www.alexa.com/topsites/countries/US}},
+  year = {2014},
+  month = apr,
+  note = {Accessed: 05/01/2014},
+}
+
+
+@misc{ios:glesdevsupport,
+  author = {{Apple, Inc.}},
+  title = {{iOS Device Compatibility Reference: OpenGL ES Graphics}},
+  howpublished = {\url{https://developer.apple.com/library/ios/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/OpenGLESPlatforms/OpenGLESPlatforms.html#//apple_ref/doc/uid/TP40013599-CH106-SW1}},
+  year = {2014},
+  month = feb,
+  note = {Accessed: 04/27/2014},
+}
+
+@misc{android:emugles:blog,
+  author = {Xavier Ducrohet},
+  title = {{A Faster Emulator with Better Hardware Support | Android Developers Blog}},
+  howpublished = {\url{http://android-developers.blogspot.fr/2012/04/faster-emulator-with-better-hardware.html}},
+  year = {2012},
+  month = apr,
+  note = {Accessed: 04/28/2014},
+}
+
+@misc{android:emugles,
+  author = {{Android Open Source Project}},
+  title = {{Using the Emulator | Android Developers}},
+  howpublished = {\url{http://developer.android.com/tools/devices/emulator.html#acceleration}},
+  note = {Accessed: 05/01/2014},
+}
+
+@inproceedings{remote:hwaccel:graphic,
+ author = {Stegmaier, Simon and Magall\'{o}n, Marcelo and Ertl, Thomas},
+ title = {{A Generic Solution for Hardware-Accelerated Remote Visualization}},
+ booktitle = {Proceedings of the Symposium on Data Visualisation 2002},
+ series = {VISSYM '02},
+ year = {2002},
+ pages = {87--ff},
+ url = {http://dl.acm.org/citation.cfm?id=509740.509754},
+ acmid = {509754},
+ publisher = {Eurographics Association},
+ address = {Aire-la-Ville, Switzerland, Switzerland},
+}
+
+@misc{XenGT:intel,
+  author = {Kevin Tian},
+  title = {{Graphics Virtualization (XenGT) | 01.org}},
+  howpublished = {\url{https://01.org/xen/blogs/srclarkx/2013/graphics-virtualization-xengt}},
+  year = {2014},
+  note = {Accessed: 05/01/2014},
+}
+
+@misc{virtualgl,
+  author = {{The VirtualGL Project}},
+  title = {{VirtualGL | Main / The VirtualGL Project}},
+  year = {2014},
+  month = may,
+  howpublished = {\url{http://www.virtualgl.org/}},
+  note = {Accessed: 05/01/2014},
+}
+
+@misc{nvidia:grid,
+  author = {{NVIDIA Corporation}},
+  title = {{Shared Virtual GPU (vGPU) Technology | NVIDIA}},
+  year = {2014},
+  howpublished = {\url{http://www.nvidia.com/object/virtual-gpus.html}},
+  note = {Accessed: 05/01/2014},
+}
+
+@misc{nvidia:tesla,
+  author = {{NVIDIA Corporation}},
+  title = {{High Performance Computing (HPC) and Supercomputing | NVIDIA Tesla | NVIDIA}},
+  year = {2014},
+  howpublished = {\url{http://www.nvidia.com/object/tesla-supercomputing-solutions.html}},
+  note = {Accessed: 05/01/2014},
+}
+
+@inproceedings{VMGL,
+ author = {Lagar-Cavilla, H. Andres and Tolia, Niraj and Satyanarayanan, M. and de Lara, Eyal},
+ title = {VMM-independent Graphics Acceleration},
+ booktitle = {Proceedings of the 3rd International Conference on Virtual Execution Environments},
+ series = {VEE '07},
+ year = {2007},
+ isbn = {978-1-59593-630-1},
+ location = {San Diego, California, USA},
+ pages = {33--43},
+ numpages = {11},
+ url = {http://doi.acm.org/10.1145/1254810.1254816},
+ doi = {10.1145/1254810.1254816},
+ acmid = {1254816},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {VMM-independence, graphics, hardware acceleration, portability, virtualization},
+} 
 
 @inproceedings{LiIonModel,
   author={Erdinc, O. and Vural, B. and Uzunoglu, M.},
